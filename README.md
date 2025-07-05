@@ -30,9 +30,6 @@ A análise foi conduzida em quatro etapas principais:
 * `02_comparacao_modelos.R`: Script principal que ajusta os quatro modelos de regressão (Poisson, Binomial Negativo e as duas versões do Hurdle) e os compara através de uma tabela de métricas.
 * `03_teste_sobredispersao_manual.R`: Script que implementa o teste de Cameron & Trivedi passo a passo para detectar a sobredispersão.
 
-## Como Executar
+## Estudo e Resultados
 
-Para rodar os scripts, você precisará das seguintes bibliotecas em R:
-
-```R
-install.packages(c("AER", "MASS", "pscl"))
+Análises, gráficos e resultados estão disponíveis no arquivo `TrabalhoSobredispersao.pdf`
